@@ -1,4 +1,4 @@
-# IKEA Textiles campaign page
+# IKEA Greenwich Store page
 
 ### If you're using nvm
 
@@ -15,9 +15,7 @@
 ### Build project for staging
 
 `npm run staging`
-(then upload to rabbithole eg. `rabbithole.ikea.com/campaigns/textiles/staging/`)
 
 ### Build project for production
 
 `npm run production`
-(then upload to rabbithole eg. `rabbithole.ikea.com/campaigns/textiles/production/`)
