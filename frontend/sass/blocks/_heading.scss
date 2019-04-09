@@ -1,0 +1,92 @@
+#textiles-main {
+  .heading.block.block-0 {
+    .heading {
+      display: none;
+    }
+
+    .subheading {
+      margin-top: -35px;
+
+      @media (max-width: 767px) {
+        margin-top: -15px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .heading.block {
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+
+    .heading {
+      letter-spacing: -.06667em;
+
+      @media (max-width: 479px) {
+        font-size: 21px;
+      }
+    }
+
+    @media (max-width: 479px) {
+      // margin-bottom: -20px;
+    }
+
+    .subheading {
+      margin-top: 14px;
+      font-size: 14px;
+      line-height: 22px;
+
+      @media (max-width: 767px) {
+        width: 80%;
+        margin: 14px auto 0 auto;
+      }
+    }
+
+    a {
+      color: $col-blue-5;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 479px) {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .heading__links {
+      margin-top: 25px;
+      font-size: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      a {
+        padding: 5px 15px;
+        margin: 10px;
+        border-radius: 2px;
+        border: 1px solid #cccccc;
+        color: #222;
+        text-decoration: none;
+        background-color: #eee;
+      }
+    }
+  }
+
+  .heading.block.hero-heading {
+    @media (min-width: 500px) {
+      .line1,
+      .line2 {
+        display: block;
+      }
+    }
+  }
+
+  .heading.block.result-products {
+    padding: 10px 0;
+
+    h1 {
+      font-size: 16px;
+    }
+  }
+}

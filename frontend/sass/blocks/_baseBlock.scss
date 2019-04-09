@@ -1,0 +1,17 @@
+#textiles-main {
+  .block {
+    @media (max-width: 767px) {
+      padding: 20px 0;
+    }
+
+    @media (min-width: 768px) {
+      padding: 30px 0;
+    }
+  }
+}
+
+#textiles-main {
+  &:last-of-type {
+    padding-bottom: 0;
+  }
+}

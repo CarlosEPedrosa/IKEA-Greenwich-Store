@@ -1,0 +1,45 @@
+$blue: #194da0;
+$grey: #f3f5f7;
+$dark-grey: #cad3df;
+$yellow: #f8e71c;
+$light-blue: #cee3ff;
+$section-blue: #d9e5ec;
+$grey-alt: #333333;
+$dark-blue: #54657e;
+$smoke-light: #d3dee2;
+
+$col-blue-1: #f0f4f6;
+$col-blue-2: #c3cddd;
+$col-blue-3: #c7dfff;
+$col-blue-4: #377db0;
+$col-blue-5: #59b3df;
+$col-blue-6: #edf7fc;
+$col-blue-7: #bce1f3;
+$col-blue-8: #407ab1;
+
+$button-blue: #009dd8;
+$button-green: #1ec254;
+
+$heading-large: 44px;
+$heading-medium: 30px;
+$heading-small: 25px;
+
+$heading-size-1: 28px;
+$heading-size-2: 24px;
+$heading-size-3: 20px;
+$body-font-size: 100%/1.5;
+$small-font-size: 13px;
+
+$gutter-30: 30px;
+
+$assetPath: "../";
+
+@if $NODE_ENV == "staging" {
+  // $assetPath: "//rabbithole.ikea.com/campaigns/textiles/staging/";
+  $assetPath: "//rabbithole.ikea.com/campaigns/mantra-generator/staging/";
+  // $assetPath: "//preview.digitalamvbbdo.com/digitalstudio/ikea/mockup/";
+}
+
+@if $NODE_ENV == "production" {
+  $assetPath: "//rabbitholetestorch001.blob.core.windows.net/plugins/dist/";
+}

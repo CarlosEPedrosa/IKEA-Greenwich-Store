@@ -1,0 +1,132 @@
+#textiles-main {
+    .ideas.block {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    .items {
+      display: inline-block;
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+      word-spacing: -.4em;
+      width: 100%;
+      max-width: 1060px;
+      
+      @media screen and (max-width: 600px) and (min-width: 1px){
+        margin-top:20px;
+      }
+    }
+
+    .item {
+      word-spacing: normal;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
+      width: 50%;
+      padding: 1em;
+      padding-left: 2.5em;
+
+      p{
+        padding: 1.25em 0 0;
+        line-height: 1.5em;
+        word-wrap: break-word;
+        font-size: 1.5em;
+      }
+
+      .image-wrapper {
+        position: relative;
+        height: auto;
+        text-align: center;
+        padding-bottom: 5px;
+
+        img {
+            border: 0;
+            height: auto;
+            max-width: 100%;
+            width: 100%;
+        }
+      }
+
+      .heading {
+        display:inline;
+        font-size: 1.8em;
+        line-height: 1.8em;
+        letter-spacing: -.06667em;
+        color:black;
+      }
+
+      :hover{
+        .heading {
+            text-decoration: underline;
+        }
+      }
+
+      .date{
+        margin:0;
+        padding:0;
+        font-size: 1.1em;
+        line-height: 1.37em;
+        color:#767676;
+      }
+
+      .tags{
+          margin-top:10px;
+          width: 100%;
+
+          .tag{
+            display: inline-block;
+            margin-right:10px;
+          }
+      }
+
+      button{
+        box-sizing: border-box;
+        -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+        border: 1px solid #ccc;
+        background-color: #eee;
+        border-radius: 2px;
+        color: #222;
+        font-size: 1.1em;
+        letter-spacing: .1em;
+        line-height: 1;
+        text-align: center;
+        margin-bottom: .5em;
+        padding: .5em .8em;
+        display: inline-block;
+        margin-top:5px;
+        transition: background-color 0.1s linear,border 0.1s linear;
+
+        &:hover,
+        &:active,
+        &:focus,
+        &.active {
+            background-color: #ccc;
+            border-color: #767676;
+            text-decoration: none;
+            color: #000000;
+            cursor: pointer;
+        }
+      }
+
+      @media screen and (max-width: 768px) and (min-width: 1px){
+        width: 100%;
+        padding:1em;
+      }
+    }
+
+    .odd{
+      padding-right: 2.5em;
+      padding-left:1em;
+      @media screen and (max-width: 768px) and (min-width: 1px){
+        padding:1em;
+      }
+    }
+  }
+}

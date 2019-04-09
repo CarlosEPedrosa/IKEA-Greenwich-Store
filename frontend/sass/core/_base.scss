@@ -1,0 +1,73 @@
+#textiles-main {
+  display: block !important;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: $body-font-size;
+  overflow: hidden;
+
+  h1 {
+    font-size: $heading-size-1;
+  }
+
+  h2 {
+    font-size: $heading-size-2;
+  }
+
+  h3 {
+    font-size: $heading-size-3;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: $body-font-size;
+  }
+
+  @media (max-width: 479px) {
+    .desktop-version {
+      display: none;
+    }
+  }
+
+  @media (min-width: 480px) {
+    .mobile-version {
+      display: none;
+    }
+  }
+
+  .fitted {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .center-with-flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper-16-9 {
+    position: relative;
+    height: 0;
+    padding-bottom: 9 / 16 * 100%;
+  }
+
+  .wrapper-4-3 {
+    position: relative;
+    height: 0;
+    padding-bottom: 3 / 4 * 100%;
+  }
+
+  .wrapper-1-1 {
+    position: relative;
+    height: 0;
+    padding-bottom: 100%;
+  }
+}
+
+.IKEA-PageModule-Editorial-Editorial {
+  margin-left: 0;
+  margin-right: 0;
+}

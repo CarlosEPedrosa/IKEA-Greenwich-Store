@@ -1,0 +1,346 @@
+{
+  "name": "Home",
+  "blocks": [
+    {
+      "type": "Heading",
+      "heading": "",
+      "subheading": "Take time to recharge, and great things will follow",
+      "links":
+        ""
+    },
+    {
+      "type": "YouTube",
+      "id": "section-TVC",
+      "heading": "Watch our latest advert",
+      "text": "Did you know that a lion rests for up to 18 hours a day? But if you think the king of the jungle is lazy, think again. Because the only way to achieve greatness, is to ease into it. And the living room is the perfect place to kick back and relax. Whether it’s pottering, playing or simply putting our feet up, take the time to recharge your mind and body and great things will follow.",
+      "mobile_text": "The living room is the perfect place to kick back and relax. Take the time to recharge your mind and body and great things will follow. ",
+      "cta": {
+        "text": "",
+        "gben":
+          "https://www.ikea.com/gb/en/ideas/put-your-stamp-on-a-room-with-textiles-1364535965927/",
+        "ieen":
+          "https://www.ikea.com/ie/en/ideas/put-your-stamp-on-a-room-with-textiles-1364535940352/"
+      },
+      "videoId": {
+        "gben": "ycmUWcL2xpI",
+        "ieen": "Nx3lEwrgdNc"
+      },
+      "image": "youtube/tvc.jpg"
+    },
+    {
+      "type": "Divider"
+    },
+    {
+      "type": "Ideas",
+      "id": "section-ideas",
+      "heading": "Living Room Inspiration",
+      "subheading": "From mood lighting to comfortable seating, we’ve got plenty of living room ideas and inspiration that will help you relax into greatness, whatever your style.",
+      "items": [
+        {
+          "heading": "Wind down, grown-up style",
+          "date": "",
+          "text": "When night falls, the dynamics of a household change, so create a space that can change with it. Clever details ensure it’s child-friendly by day, but a grown-up retreat by night. You’ll feel relaxed, recharged and ready for whatever family life throws at you.",
+          "image": "ideas/wind-down-grown-up-style.jpg",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/ideas/wind-down-grown-up-style-1364624473156/",
+            "ieen": "https://www.ikea.com/ie/en/ideas/wind-down-grown-up-style-1364629135446/"
+          },
+          "tags": [
+            { 
+              "label":"Family life",
+              "url": {
+                "gben": "https://www.ikea.com/gb/en/ideas/?filter=Family%20life",
+                "ieen": "https://www.ikea.com/ie/en/ideas/?filter=Family%20life"
+              }
+            },
+            { 
+              "label":"Living room",
+              "url": {
+                "gben": "https://www.ikea.com/gb/en/ideas/?filter=Living%20room",
+                "ieen": "https://www.ikea.com/ie/en/ideas/?filter=Living%20room"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "Unleash your inner child",
+          "date": "",
+          "text": "Playtime isn’t just essential for children, it also helps de-stress adults and strengthen family bonds. Making a home fit for both is a great way to wind down, so you can power up when you need it most.",
+          "image": "ideas/unleash-your-inner-child.jpg",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/ideas/unleash-your-inner-child-1364624473496/",
+            "ieen": "https://www.ikea.com/ie/en/ideas/unleash-your-inner-child-1364629143052/"
+          },
+          "tags": [
+            { 
+              "label":"Family life",
+              "url": {
+                "gben": "https://www.ikea.com/gb/en/ideas/?filter=Family%20life",
+                "ieen": "https://www.ikea.com/ie/en/ideas/?filter=Family%20life"
+              }
+            },
+            { 
+              "label":"Living room",
+              "url": {
+                "gben": "https://www.ikea.com/gb/en/ideas/?filter=Living%20room",
+                "ieen": "https://www.ikea.com/ie/en/ideas/?filter=Living%20room"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "Make time for me time",
+          "date": "",
+          "text": "Home is where the heart is, but why not focus on mindfulness too? Create a sanctuary that inspires self-care and see what else it inspires you to do.",
+          "image": "ideas/make-time-for-me-time.jpg",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/ideas/make-time-for-me-time-1364624470354/",
+            "ieen": "https://www.ikea.com/ie/en/ideas/make-time-for-me-time-1364629117119/"
+          },
+          "tags": [
+            { 
+              "label":"Relaxing",
+              "url": {
+                "gben": "https://www.ikea.com/gb/en/ideas/?filter=Relaxing",
+                "ieen": "https://www.ikea.com/ie/en/ideas/?filter=Relaxing"
+              }
+            },
+            { 
+              "label":"Living room",
+              "url": {
+                "gben": "https://www.ikea.com/gb/en/ideas/?filter=Living%20room",
+                "ieen": "https://www.ikea.com/ie/en/ideas/?filter=Living%20room"
+              }
+            }
+          ]
+        },
+        {
+          "heading": "Get the most out of hosting",
+          "date": "",
+          "text": "Taking the time to socialise with friends can have a positive impact on your work life too, so make sure your space is well-planned. Being able to host and hang out, all at once, is key to a relaxing evening, and in turn, a rejuvenated day ahead.",
+          "image": "ideas/get-the-most-out-of-hosting.jpg",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/ideas/get-the-most-out-of-hosting-1364624466686/",
+            "ieen": "https://www.ikea.com/ie/en/ideas/get-the-most-out-of-hosting-1364629152381/"
+          },
+          "tags": [
+            { 
+              "label":"Entertaining",
+              "url": {
+                "gben": "https://www.ikea.com/gb/en/ideas/?filter=Entertaining%20",
+                "ieen": "https://www.ikea.com/ie/en/ideas/?filter=Entertaining%20"
+              }
+            },
+            { 
+              "label":"Living room",
+              "url": {
+                "gben": "https://www.ikea.com/gb/en/ideas/?filter=Living%20room",
+                "ieen": "https://www.ikea.com/ie/en/ideas/?filter=Living%20room"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Divider"
+    },
+    {
+      "type": "ProductGrid",
+      "id": "section-shop",
+      "heading": "Shop Living Room",
+      "subheading": "",
+      "items": [
+        {
+          "image": "product-grid/sofa-and-armchairs.jpg",
+          "text": "Sofas & armchairs",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/sofas-armchairs/",
+            "ieen": "https://www.ikea.com/ie/en/products/sofas-armchairs/"
+          }
+        },
+        {
+          "image": "product-grid/bookcases.jpg",
+          "text": "Bookcases",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/storage-furniture/bookcases/",
+            "ieen": "https://www.ikea.com/ie/en/products/storage-furniture/bookcases/"
+          }
+        },
+        {
+          "image": "product-grid/shelving-and-storage-combination.jpg",
+          "text": "Shelving units & systems",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/storage-furniture/shelving-units-systems/",
+            "ieen": "https://www.ikea.com/ie/en/products/storage-furniture/shelving-units-systems/"
+          }
+        },
+        {
+          "image": "product-grid/tv-stands.jpg",
+          "text": "TV Stands & Media Units",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/storage-furniture/tv-media-benches/",
+            "ieen": "https://www.ikea.com/ie/en/products/storage-furniture/tv-media-benches/"
+          }
+        },
+        {
+          "image": "product-grid/coffee-tables.jpg",
+          "text": "Coffee & side tables",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/tables/coffee-side-tables/",
+            "ieen": "https://www.ikea.com/ie/en/products/tables/coffee-side-tables/"
+          }
+        },
+        {
+          "image": "product-grid/cabinets.jpg",
+          "text": "Cabinets & display cabinets",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/storage-furniture/cabinets-sideboards/",
+            "ieen": "https://www.ikea.com/ie/en/products/storage-furniture/cabinets-sideboards/"
+          }
+        },
+        {
+          "image": "product-grid/sideboards.jpg",
+          "text": "Sideboards & console tables",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/tables/sideboards-buffets-consoletables/",
+            "ieen": "https://www.ikea.com/ie/en/products/tables/sideboards-buffets-consoletables/"
+          }
+        },
+        {
+          "image": "product-grid/wall-shelf.jpg",
+          "text": "Wall shelves",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/storage-furniture/wall-shelves/",
+            "ieen": "https://www.ikea.com/ie/en/products/storage-furniture/wall-shelves/"
+          }
+        },
+        {
+          "image": "product-grid/decoration.jpg",
+          "text": "Decoration",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/decoration/",
+            "ieen": "https://www.ikea.com/ie/en/products/decoration/"
+          }
+        },
+        {
+          "image": "product-grid/storage-box.jpg",
+          "text": "Storage boxes & baskets",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/small-storage-organisers/storage-boxes-baskets/",
+            "ieen": "https://www.ikea.com/ie/en/products/small-storage-organisers/storage-boxes-baskets/"
+          }
+        },
+        {
+          "image": "product-grid/paper.jpg",
+          "text": "Paper & media organisers",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/small-storage-organisers/paper-media-organisers/",
+            "ieen": "https://www.ikea.com/ie/en/products/small-storage-organisers/paper-media-organisers/"
+          }
+        },
+        {
+          "image": "product-grid/curtains.jpg",
+          "text": "Curtains & blinds",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/curtains-blinds/",
+            "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/curtains-blinds/"
+          }
+        },
+        {
+          "image": "product-grid/rugs.jpg",
+          "text": "Rugs",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/rugs/",
+            "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/rugs/"
+          }
+        },
+        {
+          "image": "product-grid/blankets.jpg",
+          "text": "Blankets & throws",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/blankets-throws/",
+            "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/blankets-throws/"
+          }
+        },
+        {
+          "image": "product-grid/cushions.jpg",
+          "text": "Cushions & inner cushions",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/cushions-inner-cushions/",
+            "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/cushions-inner-cushions/"
+          }
+        },
+        {
+          "image": "product-grid/covers.jpg",
+          "text": "Covers",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/covers/",
+            "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/covers/"
+          }
+        },
+        {
+          "image": "product-grid/living-room-lighting.jpg",
+          "text": "Living room lighting",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/rooms/living-room/living-room-lighting/",
+            "ieen": "https://www.ikea.com/ie/en/rooms/living-room/living-room-lighting/"
+          }
+        },
+        {
+          "image": "product-grid/open-storage.jpg",
+          "text": "Open storage system",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/products/storage-furniture/storage-systems/",
+            "ieen": "https://www.ikea.com/ie/en/products/storage-furniture/storage-systems/"
+          }
+        }
+      ]
+    },
+    {
+      "type": "Divider"
+    },
+    {
+      "type": "Reasons",
+      "heading": "Shopping made easy",
+      "items": [
+        {
+          "heading": "0% APR representative interest-free credit option when you spend £600 or more*",
+          "text": "See full Terms and Conditions",
+          "image": "reasons/finance.jpg",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/customer-service/services-at-ikea/finance/",
+            "ieen": "https://www.ikea.com/ie/en/customer-service/services-at-ikea/finance/"
+          }
+        },
+        {
+          "heading": "Rent a van from us if you prefer to take it home yourself.",
+          "text": "More about Van Rental",
+          "image": "reasons/van-rental.jpg",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/customer-service/services-at-ikea/van-rental/",
+            "ieen": "https://www.ikea.com/ie/en/customer-service/services-at-ikea/van-rental/"
+          }
+        },
+        {
+          "heading": "Because sometimes your ideas are bigger than your car",
+          "text": "See more on Delivery service",
+          "image": "reasons/delivery.jpg",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/customer-service/services-at-ikea/home-delivery/",
+            "ieen": "https://www.ikea.com/ie/en/customer-service/services-at-ikea/home-delivery/"
+          }
+        },
+        {
+          "heading": "We help you piece it all together",
+          "text": "See more on Assembly service",
+          "image": "reasons/assembly.jpg",
+          "url": {
+            "gben": "https://www.ikea.com/gb/en/customer-service/services-at-ikea/assembly/",
+            "ieen": "https://www.ikea.com/ie/en/customer-service/services-at-ikea/assembly/"
+          }
+        }
+      ]
+    }
+  ]
+}

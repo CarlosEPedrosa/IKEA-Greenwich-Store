@@ -1,0 +1,84 @@
+#textiles-main {
+  .reasons.block {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    .items {
+      display: inline-block;
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+      word-spacing: -.4em;
+      text-align: center;
+      width: 100%;
+      max-width: 1060px;
+    }
+
+    .item {
+      word-spacing: normal;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
+      width: 25%;
+      padding: 1.5em 1.2em;
+
+      p{
+        margin-top:10px;
+        font-size:1.5em;
+        line-height: 1.5em;
+        color: #407ab1;
+      }
+
+      :hover{
+        text-decoration: underline;
+      }
+
+      .image-wrapper {
+        position: relative;
+        height: auto;
+
+        img {
+          max-height: 128px;
+          width: auto;
+          margin: 0 auto 5px;
+        }
+      }
+
+      .heading {
+        display:inline;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        letter-spacing: -.06667em;
+        color:black;
+        // margin-bottom: 0.5em;
+      }
+
+      @media (max-width: 479px) {
+        width: 50%;
+      }
+
+      @media screen and (max-width: 1024px) and (min-width: 601px){
+        .image-wrapper {
+          img {
+            max-height:96px;
+          }
+        }
+      }
+
+      @media screen and (max-width: 768px) and (min-width: 601px){
+        width: 33%;
+      }
+
+      @media screen and (max-width: 600px) and (min-width: 1px){
+        width: 50%;
+        .image-wrapper {
+          img {
+            max-height:72px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+#textiles-main {
+  .youtube.block {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+
+    @media (min-width: 768px) {
+      display: flex !important;
+      justify-content: space-between;
+    }
+
+    .youtube__copy {
+      font-size: 13px;
+
+      .text {
+        line-height: 21px;
+        display:block;
+      }
+
+      .mobile-text{
+        line-height: 21px;
+        display:none;
+      }
+
+      .heading {
+        font-size: 28px;
+        letter-spacing: -.06667em;
+        margin-bottom: 20px;
+
+        @media (max-width: 479px) {
+          font-size: 21px;
+        }
+      }
+
+      .copy-cta {
+        text-decoration: underline;
+        color: $blue;
+        padding-top: 20px;
+        padding-right: 30px;
+
+        @media (max-width: 767px) {
+          display: none;
+        }
+      }
+
+      @media (max-width: 479px) {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 4px;
+        padding-bottom: 30px;
+      }
+
+      @media screen and (max-width: 600px) and (min-width: 1px){
+        .text{
+          display:none;
+        }
+
+        .mobile-text{
+          display:block;
+        }
+      }
+
+      @media (min-width: 480px) and (max-width: 767px) {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 4px;
+        padding-bottom: 50px;
+      }
+
+      @media (min-width: 768px) {
+        width: 38%;
+      }
+    }
+
+    .youtube__video {
+      @media (min-width: 768px) {
+        width: 60%;
+      }
+
+      .video-cta {
+        font-size: 13px;
+        text-align: center;
+        text-decoration: underline;
+        color: $blue;
+        padding-top: 20px;
+
+        @media (min-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .youtube-player {
+    @extend .wrapper-16-9;
+    overflow: hidden;
+    position: relative;
+
+    .player {
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      width: calc(100% + 2px);
+      height: calc(100% + 2px);
+    }
+
+    .poster-wrapper {
+      @extend .fitted;
+
+      display: none;
+
+      .poster {
+        @extend .fitted;
+      }
+
+      transition: opacity 1000ms;
+
+      .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -30px;
+        margin-left: -30px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .youtube-player.show-poster {
+    .player {
+      display: none;
+    }
+    .poster-wrapper {
+      display: block;
+    }
+  }
+}
